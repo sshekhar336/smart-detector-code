@@ -1,0 +1,49 @@
+.imageContent{
+    display: flex;
+  justify-content: center;
+}
+
+.imagedisplay{
+    padding: 3%;
+    position: absolute;
+}
+
+#inputimage{
+    height: auto;
+    width: 500px;
+}
+
+#uploaded_image{
+    height: auto;
+    width: 500px;
+}
+
+.bounding-box{
+    position: absolute;
+    box-shadow: 0 0 0 3px #14f271 inset;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#LoadingIndicator{
+    height: 70px;
+    width: 70px;
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    left: 40%
+}
+
+@media only screen and (max-width: 420px) {
+    #inputimage{
+        height: auto;
+        width: 250px;
+    }
+    
+    #uploaded_image{
+        height: auto;
+        width: 250px;
+    }
+}

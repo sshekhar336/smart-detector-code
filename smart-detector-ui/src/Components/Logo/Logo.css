@@ -1,0 +1,12 @@
+.Tilt{
+    background: linear-gradient(89deg, rgb(187, 152, 233) 0%, rgb(40, 7, 226) 100%);
+    /* border: 1px solid black; */
+    margin-left: 50px;
+    box-shadow: 0px 0px 2px 8px rgba(190, 243, 243, 0.87);
+}
+
+.Logo{
+    height: 60px;
+    width: 60px;
+    padding-top: 18px;
+}

@@ -1,0 +1,89 @@
+.signInForm{
+    background: rgba(212, 212, 205,0.1);
+    display: inline-block;
+    height: 380px;
+    width: auto;
+    border-radius: 5%;
+    box-shadow: 3px 4px 3px 1px rgba(190, 243, 243, 0.87);
+    margin: 10%;
+}
+
+.labelHere{
+    display: inline-block;
+    width: 50%;
+    margin: 3%;
+}
+
+.email{
+    padding-top: 2%;
+}
+
+.inputtage{
+    border-radius: 3px;
+    border: navajowhite;
+    height: 25px;
+    width: 75%;
+    outline: none;
+}
+
+.inputtage:focus,
+.inputtage:hover{
+    background: black;
+    color: blanchedalmond;
+    outline: none;
+}
+
+.register{
+    width: auto;
+    border: none;
+    height: 30px;
+    background: rgb(230, 132, 21);
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    cursor: pointer;
+    margin: 5%;
+    margin-bottom: 15%;
+}
+.register:hover{
+    transform: scale(1.1); 
+}
+
+.signin:hover {
+     transform: scale(1.1); 
+}
+
+h2{
+    padding-top: 3%;
+}
+
+.registerLabel{
+    color: blanchedalmond;
+    background: rgba(5, 5, 4, 0.1);
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 625;
+
+}
+.registerLabel:hover{
+    color: cadetblue;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.back{
+    color: blanchedalmond;
+    background: rgba(5, 5, 4, 0.1);
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 625;
+
+}
+.back:hover{
+    color: cadetblue;
+    cursor: pointer;
+    transform: scale(1.1);
+}
